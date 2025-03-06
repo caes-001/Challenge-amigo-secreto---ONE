@@ -55,3 +55,16 @@ function sortearAmigo() {
     // Actualizar la lista de amigos para reflejar el cambio
     actualizarLista();
 }
+
+//creamos una funcion que nos permita reiniciar la aplicacion
+function reiniciarAplicacion(){
+    amigos = [];
+    actualizarLista();
+    
+    const resultado = document.getElementById('resultado');
+    if (resultado) {
+        resultado.innerHTML = '';
+    }
+}
+//reinicio al hacer click en el boton
+document.getElementById('reinicio').onclick = reiniciarAplicacion;
