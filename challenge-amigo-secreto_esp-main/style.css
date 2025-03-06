@@ -164,15 +164,30 @@ ul {
 }
 
 .btn-eliminar {
-    margin-left: 13px; /* Espacio entre texto del amigo y el botón */
-    padding: 2px 17px; /* Reajusta el tamaño del botón para que sea más grande */
-    font-size: 0.8em; /* Ajusta el tamaño de la fuente si es necesario */
-    background-color: #957dec; /* Color de fondo rojo */
-    color: white; /* Texto en blanco */
+    margin-left: 13px; 
+    padding: 2px 17px; 
+    font-size: 0.8em; 
+    background-color: #957dec; 
+    color: white; 
     border: none;
-    cursor: pointer; /* Cambia el cursor a mano cuando se pasa por encima */
+    cursor: pointer; 
 }
 
 .btn-eliminar:hover {
-    background-color: #d32f2f; /* Un tono más oscuro al pasar el ratón por encima */
+    background-color: #d32f2f; 
+}
+
+#reinicio{              /* al ser una id se utiliza # en css*/
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 29px;
+    padding: 12px 10px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-size: 25px;
+}
+
+#reinicio:hover{
+    background-color: red;
+    color:white;
 }
