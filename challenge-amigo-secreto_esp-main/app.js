@@ -1,5 +1,4 @@
-//codigo escrito con ayuda del modelos de IA phi4
-
+//codigo escrito con ayuda del modelos de IA phi4 corriendo localmente en ollama.
 let amigos = [];
 
 function agregarAmigo() {
