@@ -72,6 +72,7 @@ function actualizarLista() {
         // Crear un botón para eliminar el amigo
         const botonEliminar = document.createElement('button');
         botonEliminar.textContent = 'Eliminar';
+        botonEliminar.classList.add('btn-eliminar'); // Añade una clase específica al boton para poder editarlo mediante css
         botonEliminar.onclick = () => eliminarAmigo(index);
 
         // Añadir el botón al elemento de lista
