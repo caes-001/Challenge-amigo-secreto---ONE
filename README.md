@@ -10,8 +10,13 @@
 ![Captura de pantalla (2035)](https://github.com/user-attachments/assets/72f56e01-8fee-439c-b6fe-440703475113)
 
 
+
+
 primeras pruebas de git-github-vscode 
 
 Practicando el flujo de trabajo con git y github 
 
 1-git add 2-git commit 3-git push
+
+prueba en varios archivos.
+
