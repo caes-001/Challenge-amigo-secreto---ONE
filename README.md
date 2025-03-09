@@ -13,3 +13,5 @@
 primeras pruebas de git-github-vscode 
 
 Practicando el flujo de trabajo con git y github 
+
+1-git add 2-git commit 3-git push
